@@ -12,6 +12,7 @@ import {useRef} from 'react';
 import './assets/css/bootstrap.min.css'
 import Supply from './components/Supply/Supply';
 import Contact from './components/Contact/Contact';
+import Tour from './components/Tour/Tour';
 
 
 function App() {
@@ -30,7 +31,7 @@ function App() {
     <Routes>
       <Route index element= {<DriverSupport/>}/>
       <Route path="BarResto" element= {<BarResto/>}/>
-      <Route path="Tour" element= {<Slider/>}/>
+      <Route path="Tour" element= {<Tour/>}/>
       <Route path="Supply" element= {<Supply/>}/>  
       <Route path="Contact" element={<Contact/>}/>
     </Routes>

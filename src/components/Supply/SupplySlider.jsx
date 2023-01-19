@@ -24,7 +24,7 @@ const SupplySlider = () => {
         <div className="col-md-6 p-5 mt-lg-5">
             <h1 className="display-6 animated fadeIn mb-4 pt-4">Order<span className="text-primary"> Cheese packages</span> in River Classe Supply</h1>
             <p className="animated fadeIn mb-4 pb-2">Supermarkets and Hotels, This is the good place where you can order Cheese on very affordable price.</p><p>Free delivery :)</p>
-            <a href="" className="btn btn-primary py-3 px-5 me-3 animated fadeIn">Show More</a>
+            <a href="" className="btn btn-primary py-3 px-5 me-3 animated fadeIn">Call us : +250785639237</a>
         </div>
         <div className="col-md-6 animated fadeIn">
             <div>

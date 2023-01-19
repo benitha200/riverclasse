@@ -5,23 +5,13 @@ import WOW from 'wowjs';
 
 import React from 'react'
 
-const Slider = ({handleClick}) => {
-    // componentDidMount() {
-    //     new WOW.WOW({
-    //       live: false
-    //     }).init();
-    //   };
-      
-    //   useEffect(() => {
-    //     new WOW.WOW({
-    //       live: false
-    //     }).init();
-    //   }, [])
+const TourSlider = ({handleClick}) => {
+
   return (
     <div className="container-fluid header bg-white p-0 pt-5"><br/><br/>
     <div className="row g-0 align-items-center flex-column-reverse flex-md-row">
         <div className="col-md-6 p-5 mt-lg-5">
-            <h1 className="display-6 animated fadeIn mb-4 pt-4">Find A <span class="text-primary">Proffessional Driver</span> To Drive you safe</h1>
+            <h1 className="display-6 animated fadeIn mb-4 pt-4">Have Tour with <span class="text-primary">Proffessional Drivers</span> From River Classe</h1>
             <p className="animated fadeIn mb-4 pb-2">Welcome to River Classe where you can find proffesional drivers anytime anywhere.</p>
             <a href="" className="btn btn-primary py-3 px-5 me-3 animated fadeIn">Call us : +250785639237</a>
         </div>
@@ -42,4 +32,4 @@ const Slider = ({handleClick}) => {
   )
 }
 
-export default Slider
+export default TourSlider
