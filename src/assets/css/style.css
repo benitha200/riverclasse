@@ -71,10 +71,15 @@
 /*** Navbar ***/
 .nav-bar {
     position: relative;
-    margin-top: 45px;
+    /* margin-top: 45px; */
+    margin-top: 2rem;
     padding: 0 3rem;
     transition: .5s;
     z-index: 9999;
+}
+
+.navbar-nav a:hover{
+ color: #00B98E;
 }
 
 .nav-bar.sticky-top {

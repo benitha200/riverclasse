@@ -8,7 +8,6 @@ import logo1 from '../../assets/img/logo1.png'
 
 const Header = () => {
     return (
-        <div>
             <div className="container-xxl bg-white p-0">
                 {/* <!-- Spinner Start --> */}
                 {/* <div id="spinner" className='show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center'>
@@ -21,27 +20,29 @@ const Header = () => {
 
                 {/* <!-- Navbar Start --> */}
                 <div className="container-fluid nav-bar bg-transparent">
-                    <nav className="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
-                        <Link to ="/" className="navbar-brand d-flex align-items-center text-center">
+                <Link to ="/" className="navbar-brand d-flex align-items-center text-center">
                             <div className="">
-                                <img className="img-fluid" src={logo1} alt="Icon" style={{width: '75px', height: '75px', borderRadius:'50%'}}/>
+                                <img className="img-fluid" src={logo1} alt="Icon" style={{width: '80px', height: '80px', borderRadius:'50%'}}/>
                             </div>
                             <div style={{display:'block'}}>
-                                <h2 className="m-0 pt-3 text-primary p-1">River Classe</h2><span className="m-0 " style={{color:'#0E2E50',fontWeight:'700',marginTop:'0px',fontSize:'0.9rem'}}> Group Ltd</span>
+                                <h1 className="m-0 pt-3 text-primary p-1">River Classe <span style={{fontWeight:'700',fontSize:'1rem'}}>Group Ltd</span></h1>
+                                {/* <span style={{color:'#0E2E50',fontWeight:'700',fontSize:'1.5rem'}}> Group Ltd</span> */}
                             </div>
                             
-                        </Link>
+                    </Link>
+                    <nav className="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
+                        
                         <button type="button" className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                             <span className="navbar-toggler-icon"></span>
                         </button>
                         <div className="collapse navbar-collapse" id="navbarCollapse">
                             <div class="navbar-nav ms-auto">
 
-                                <Link to="/" className="nav-item nav-link active">Driver Support</Link>
-                                <Link to="/BarResto" className="nav-item nav-link">Bar&Resto</Link>
-                                <Link to="/Tour" className="nav-item nav-link">Tour</Link>
-                                <Link to="/Supply" className="nav-item nav-link">Supply</Link>
-                                <Link to="/Contact" className="nav-item nav-link">Contact</Link>
+                                <Link to="/" className="nav-item nav-link active">River Classe Driver Help</Link>
+                                <Link to="/BarResto" className="nav-item nav-link">River Classe Resto-Bar</Link>
+                                <Link to="/Tour" className="nav-item nav-link">River Classe Tour Travel</Link>
+                                <Link to="/Supply" className="nav-item nav-link">River Classe Supply</Link>
+                                {/* <Link to="/Contact" className="nav-item nav-link">Contact</Link> */}
                                 
                                 {/* <div class="nav-item dropdown">
                                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Property</a>
@@ -68,7 +69,7 @@ const Header = () => {
                 {/* <!-- Navbar End --> */}
 
             </div>
-            </div>
+            
             )
 }
 
