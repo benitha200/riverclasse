@@ -43,7 +43,7 @@ const Contact = () => {
             name='recipient' onChange={handleChange} value={formData.recipient}
           /><br></br>
           <textarea className='form-control bg-transparent w-100 py-3 ps-4 pe-5' placeholder='Message...' name="message" onChange={handleChange} value={formData.message}></textarea>
-          <input type="submit" class="btn btn-primary w-50 top-0 end-0 mt-2 me-2" value="submit" />
+          <input type="submit" class="btn btn-primary w-50 top-0 end-0 mt-2 me-2" value="Send" />
         </form>
       </div>
 
