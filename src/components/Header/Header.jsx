@@ -1,10 +1,11 @@
 import React from 'react'
 import '../../assets/lib/animate/animate.min.css'
 import '../../assets/lib/owlcarousel/assets/owl.carousel.min.css'
-import '../../assets/css/bootstrap.min.css'
-import '../../assets/css/style.css'
+// import "bootstrap/dist/css/bootstrap.min.css";
+// import '../../assets/css/style.css'
 import { Outlet , Link } from 'react-router-dom'
 import logo1 from '../../assets/img/logo1.png'
+import './Header.css'
 
 const Header = () => {
     return (
@@ -42,6 +43,7 @@ const Header = () => {
                                 <Link to="/BarResto" className="nav-item nav-link">River Classe Resto-Bar</Link>
                                 <Link to="/Tour" className="nav-item nav-link">River Classe Tour Travel</Link>
                                 <Link to="/Supply" className="nav-item nav-link">River Classe Supply</Link>
+                                <Link to="/Signin" className="nav-item nav-link">Sign In</Link>
                                 {/* <Link to="/Contact" className="nav-item nav-link">Contact</Link> */}
                                 
                                 {/* <div class="nav-item dropdown">

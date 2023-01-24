@@ -1,6 +1,8 @@
 import React from 'react'
 import IconVilla from '../../assets/img/icon-villa.png'
 
+
+
 const DriverWhySection = () => {
     return (
     // <!-- Category Start -->
@@ -11,7 +13,10 @@ const DriverWhySection = () => {
                 {/* <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p> */}
             </div>
             <div className='row g-4'>
-                <div className='col-lg-3 col-sm-6 wow fadeInUp' data-wow-delay="0.1s">
+                <div 
+                className='col-lg-3 col-sm-6 wow fadeInUp' 
+                data-wow-delay="0.1s"
+                >
                     <a className='cat-item d-block bg-light text-center rounded p-3' href="">
                         <div className='rounded p-4'>
                             <div className='icon mb-3'>

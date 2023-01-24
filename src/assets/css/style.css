@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #153c33;
+    --primary: #00B98E;
     --secondary: #FF6922;
     --light: hsl(146, 78%, 96%);
     --dark: #0E2E50;
@@ -78,7 +78,7 @@
     z-index: 9999;
 }
 
-.navbar-nav a:hover{
+.nav-bar .nav-item:hover{
  color: #00B98E;
 }
 
@@ -115,8 +115,11 @@
     outline: none;
 }
 
-.navbar-light .navbar-nav .nav-link:hover,
-.navbar-light .navbar-nav .nav-link.active {
+.navbar-light .navbar-nav .nav-link:hover
+ {
+    color: var(--primary);
+}
+.navbar-light .navbar-nav .nav-link.active{
     color: var(--primary);
 }
 

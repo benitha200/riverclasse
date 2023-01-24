@@ -1,11 +1,14 @@
 import Driver from '../../assets/img/driver.jpeg';
 import Driver1 from '../../assets/img/driver1.jpeg';
+// import { motion } from 'framer-motion'
 
 import WOW from 'wowjs';
 
 import React from 'react'
 
 const Slider = ({handleClick}) => {
+
+    const transition = {duration:3 ,type:"spring"}
     // componentDidMount() {
     //     new WOW.WOW({
     //       live: false
@@ -32,6 +35,19 @@ const Slider = ({handleClick}) => {
                 <div>
                     <img src={Driver} className="img-fluid"  alt=""/>
                 </div>
+
+                {/* <div>
+                    <motion.img
+                        transition = {transition}
+                        initial = {{ bottom:"-2rem"}}
+                        whileInView= {{bottom:"0rem"}}
+                        src = {{Driver}}
+                        alt=""
+                        className= "img-fluid" 
+                    />
+                </div> */}
+               
+
                 {/* <div className="owl-carousel-item">
                     <img className="img-fluid" src={Driver1} alt=""/>
                 </div> */}
