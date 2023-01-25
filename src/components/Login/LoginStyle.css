@@ -1,17 +1,16 @@
 .containerlogin{
     display: flex;
     flex-direction: row; 
-    flex-wrap: wrap;
     justify-content: end;
    
 }
-.row{
+.containerlogin .row{
     justify-content: end;
 }
-.row>:nth-child(2){
+.containerlogin .row>:nth-child(2){
     justify-content: end;
 }
-.row>:first-child{
+.containerlogin .row>:first-child{
     margin-right: 0rem;
     /* background-color: aquamarine; */
     border-radius: 50%;
@@ -35,3 +34,13 @@
     width: 60%;
     justify-content: end;
 } 
+
+@media screen and (max-width:856px) {
+
+    .containerlogin{
+        display: flex;
+        flex-direction: column; 
+       
+    }
+    
+}

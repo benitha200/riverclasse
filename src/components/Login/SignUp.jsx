@@ -7,16 +7,14 @@ const SignUp = () => {
     return (
         <div className="containerlogin">
 
-            <div className="row g-2 pt-2">
-                <div className="col-lg-6 pt-2">
+         
                     <div className="left-image">
                         <br></br>
                         <h1 className='p-4'>Make Your Life Easier With River Classe group Ltd</h1>
                     </div>
-                </div>
+              
 
-                
-                <div className="col-lg-6">
+            
 
                 <div className='form  bg-primary p-5 mt-4 rounded'>
                     <div className='form-header'>
@@ -41,8 +39,7 @@ const SignUp = () => {
                 </div>
 
                 </div>
-            </div>
-        </div>
+         
     )
 }
 
