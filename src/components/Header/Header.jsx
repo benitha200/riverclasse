@@ -39,10 +39,10 @@ const Header = () => {
                         <div className="collapse navbar-collapse" id="navbarCollapse">
                             <div class="navbar-nav ms-auto">
 
-                                <Link to="/" className="nav-item nav-link active">River Classe Driver Help</Link>
-                                <Link to="/BarResto" className="nav-item nav-link">River Classe Resto-Bar</Link>
-                                <Link to="/Tour" className="nav-item nav-link">River Classe Tour Travel</Link>
-                                <Link to="/Supply" className="nav-item nav-link">River Classe Supply</Link>
+                                <Link to="/" className="nav-item nav-link active">Driver</Link>
+                                <Link to="/BarResto" className="nav-item nav-link">Resto-Bar</Link>
+                                <Link to="/Tour" className="nav-item nav-link">Tour Travel</Link>
+                                <Link to="/Supply" className="nav-item nav-link">Supply</Link>
                                 <Link to="/Signin" className="nav-item nav-link">Sign In</Link>
                                 {/* <Link to="/Contact" className="nav-item nav-link">Contact</Link> */}
                                 
